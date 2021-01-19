@@ -2,12 +2,12 @@
 layout: post
 title:  "Tech and Imposter Syndrome"
 date:   2021-01-15 21:41:40 -0800
-categories: culture diversity
+categories: culture diversity performance
 ---
-I've been thinking a lot about Imposter Syndrome lately. As I work with many engineers and we discuss techniques to be more effective, I recognize that some of the simplest things that can help everyone just don't get done. Reflecting on _why_ they don't get done brings me time and again to Imposter Syndrome. I believe that taking simple steps to counter this everyday is one of the best ways to affect positive changes in our industry.
+I've been thinking a lot about [Imposter Syndrome](imposter-syndrome) lately. As I work with many engineers and we discuss techniques to be more effective, I recognize that some of the simplest things that can help everyone just don't get done. Reflecting on _why_ they don't get done brings me time and again to Imposter Syndrome. I believe that taking simple steps to counter this everyday is one of the best ways to affect positive changes in our industry.
 
 ## What is Imposter Syndrome?
-Imposter syndrome essentially means that a person thinks that they tricked their way into their current job, that they're a fraud who'll be eventually found out, and that they don't belong. The [wikipedia](imposter-syndrome) article provides more details.
+Imposter syndrome essentially means that a person thinks that they tricked their way into their current job, that they're a fraud who'll be eventually found out, and that they don't belong.
 
 There isn't any method to who this affects the most and why. The core ingredient seems to be some sort of "exclusive" club, and the Tech Industry fits that bill. I've observed - surprisingly - that there is little correlation between character traits and feeling this way as well: for example, extroverted types seem to feel it as much as introverted ones. Seniority confers little defense too. Personally, I believe that under-represented minorities (URMs) feel it more keenly since this is a question of belonging, and they probably look around and go _"Well, do I really belong in this industry?"_.
 
