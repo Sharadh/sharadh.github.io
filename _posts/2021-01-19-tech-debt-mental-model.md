@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Useful Mental Models for Technical Debt"
+title:  "Two Mental Models for Technical Debt"
 date:   2021-01-15 21:41:40 -0800
 categories: technical tech-debt mental-models
 ---
@@ -54,7 +54,8 @@ My favorite resource for this is a blogpost from Riot games about the _[Taxonomy
 
 ### Contagion
 > If you only take away one lesson from this article, I hope you remember the “contagion” metric discussed below.
-> - A Taxonomy of Tech Debt, Riot Games
+> 
+> \- A Taxonomy of Tech Debt, Riot Games
 
 Of the three, contagion is key here since:
 
@@ -63,7 +64,8 @@ Of the three, contagion is key here since:
 
 To avoid reinventing the wheel:
 > If this tech debt is allowed to continue to exist, how much will it spread? That spreading can result from other systems interfacing with the afflicted system, from copy-pasting data built on top of the system, or from influencing the way other engineers will choose to implement new features.
-> - A Taxonomy of Tech Debt, Riot Games
+> 
+> \- A Taxonomy of Tech Debt, Riot Games
 
 The last part is particularly important: _"influencing the way other engineers will choose to implement new features"_. Watch out for tech debt in _interfaces_: APIs, shared libraries, etc. Watch out too for _boilerplates_ or _guides_: code that is commonly copied by users.
 
