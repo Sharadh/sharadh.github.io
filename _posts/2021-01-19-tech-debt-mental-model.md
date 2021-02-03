@@ -31,7 +31,7 @@ The rate of interest is the cost to _maintain_ that debt, or to _workaround_ it.
 ### Tech Bankruptcy
 Tech bankruptcy happens when a team's technical debt grows to such an extent that they can't continue to function. The debt has balooned beyond management, and the team is unable to keep up the consistent payments to service it. Left unchecked, the team _will_ fail, projects _will_ crumble, and everyone _will_ be fairly miserable.
 
-The [Google Site Reliability Engineering (SRE) Book](https://sre.google/sre-book/table-of-contents/) has a neat way of semi-objectively judging a team's tech-debt budget using SLOs. In this scenario, when a team runs out of budget, all feature work stops and they have to service the debt _or_ lose SRE support.
+The [Google Site Reliability Engineering (SRE) Book](sre) has a neat way of semi-objectively judging a team's tech-debt budget using SLOs. In this scenario, when a team runs out of budget, all feature work stops and they have to service the debt _or_ lose SRE support.
 
 ### Aside: Your Currency is Time
 _Feel free to skip this part, it's just me nerding out on exact abstractions._
@@ -50,14 +50,36 @@ My favorite resource for this is a blogpost from Riot games about the _[Taxonomy
 
 * **Impact** is what we've seen already - the cost of maintaining or working around the debt.
 * **Cost** is actually _Cost to fix_: the cost of biting the bullet, doing the more elegant thing, and ripping all the hacks out.
-* **Contagion** is _very_ interesting. It's how quickly the debt spreads - in 2021 in the midst of a pandemic, one could say it's the replication factor of the debt.
+* **Contagion** is _very_ interesting. It's how quickly the debt spreads - in 2021 and the midst of a pandemic, one could say it's the _[reproductive rate](ro)_ of the debt.
 
 ### Contagion
-TODO
+> If you only take away one lesson from this article, I hope you remember the “contagion” metric discussed below.
+> - A Taxonomy of Tech Debt, Riot Games
+
+Of the three, contagion is key here since:
+
+* it has the most potential for catastrophic results, and
+* it is the most likely to be overlooked
+
+To avoid reinventing the wheel:
+> If this tech debt is allowed to continue to exist, how much will it spread? That spreading can result from other systems interfacing with the afflicted system, from copy-pasting data built on top of the system, or from influencing the way other engineers will choose to implement new features.
+> - A Taxonomy of Tech Debt, Riot Games
+
+The last part is particularly important: _"influencing the way other engineers will choose to implement new features"_. Watch out for tech debt in _interfaces_: APIs, shared libraries, etc. Watch out too for _boilerplates_ or _guides_: code that is commonly copied by users.
+
+### Contagion and Rate of Interest
+Let's get back to our mental model about the rate of interest of tech debt. In this scenario, contagion is like _compounding_ interest on unpaid debt. Take the typical - and unfortunate - example of credit card debt. Let's take an example<sup>*</sup>: your standard APR is, say, 25%. You miss a payment of $100 one month, and now owe $125. You manage to pay back $50 the next month, so you have $75 outstanding, but now your balance is $94. On and on you go, and finally pay off all that debt in a year's time. When you turn around and do the analysis, the effective interest you paid on that last dollar was 1355%: in other words, over 12 months you owed $13.50 back for that $1 of debt you took on.
+
+Contagion is exactly like this. The unpaid tech debt replicates and infects other parts of your system, and the impact and cost of the debt keeps increasing exponentially.
+
+_<sup>*</sup>: This obviously isn't financial advice, and neither is this post about credit card debt. This is just meant as an illustrative example._
 
 ## Summary
+I hope this post helped give you (and your team) a common starting point to reason about your tech debt, and have more nuanced conversations. To help kickstart, here's a tl;dr that captures 80% of all the words above:
+
 1. Tech debt is like any other debt - taking on a responsible amount will infuse your project with funds for growth.
 2. Like other debt, learn to reason about the rate of interest and what you _can_ afford to pay back.
+3. Remember to think about how contagious the debt is, i.e how quickly the interest compounds.
 
 ## Notes
 * Why
@@ -72,5 +94,7 @@ TODO
     * Three of these play into the interest rate
 * Examples of good tech debt and bad
 
+[sre]: https://sre.google/sre-book/table-of-contents/
 [riot]: https://technology.riotgames.com/news/taxonomy-tech-debt
+[ro]: https://en.wikipedia.org/wiki/Basic_reproduction_number
 
