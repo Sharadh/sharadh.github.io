@@ -81,19 +81,7 @@ I hope this post helped give you (and your team) a common starting point to reas
 2. Like other debt, learn to reason about the rate of interest and what you _can_ afford to pay back.
 3. Remember to think about how contagious the debt is, i.e how quickly the interest compounds.
 
-## Notes
-* Why
-* First: tech debt is debt
-    * Why we take on debt
-    * Interest rate
-    * When does it make sense
-    * Tech bankruptcy (xref Google SRE book)
-* Second: Riot games
-    * Impact/Cost/Contagion
-    * Contagion is really key
-    * Three of these play into the interest rate
-* Examples of good tech debt and bad
-
+<!-- References -->
 [sre]: https://sre.google/sre-book/table-of-contents/
 [riot]: https://technology.riotgames.com/news/taxonomy-tech-debt
 [ro]: https://en.wikipedia.org/wiki/Basic_reproduction_number
