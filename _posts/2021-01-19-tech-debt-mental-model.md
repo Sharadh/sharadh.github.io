@@ -31,7 +31,7 @@ The rate of interest is the cost to _maintain_ that debt, or to _workaround_ it.
 ### Tech Bankruptcy
 Tech bankruptcy happens when a team's technical debt grows to such an extent that they can't continue to function. The debt has balooned beyond management, and the team is unable to keep up the consistent payments to service it. Left unchecked, the team _will_ fail, projects _will_ crumble, and everyone _will_ be fairly miserable.
 
-The [Google Site Reliability Engineering (SRE) Book](sre) has a neat way of semi-objectively judging a team's tech-debt budget using SLOs. In this scenario, when a team runs out of budget, all feature work stops and they have to service the debt _or_ lose SRE support.
+The [Google Site Reliability Engineering (SRE) Book][sre] has a neat way of semi-objectively judging a team's tech-debt budget using SLOs. In this scenario, when a team runs out of budget, all feature work stops and they have to service the debt _or_ lose SRE support.
 
 ### Aside: Your Currency is Time
 _Feel free to skip this part, it's just me nerding out on exact abstractions._
@@ -46,11 +46,11 @@ So that's the first mental model: tech debt is like any other debt, a tool for g
 ## Calculating the Rate of Interest
 Let's assume there's some way to determine the benefits we get from taking on tech debt. (We'll just hand-wave and let our hypothetical all-action Product Manager, Alan, handle it. Thanks Alan!) The second mental model is around determining this rate of interest.
 
-My favorite resource for this is a blogpost from Riot games about the _[Taxonomy of Technical Debt](riot)_. Under this model, there are a few different axes to consider any debt: Impact, Cost, and Contagion
+My favorite resource for this is a blogpost from Riot games about the _[Taxonomy of Technical Debt][riot]_. Under this model, there are a few different axes to consider any debt: Impact, Cost, and Contagion
 
 * **Impact** is what we've seen already - the cost of maintaining or working around the debt.
 * **Cost** is actually _Cost to fix_: the cost of biting the bullet, doing the more elegant thing, and ripping all the hacks out.
-* **Contagion** is _very_ interesting. It's how quickly the debt spreads - in 2021 and the midst of a pandemic, one could say it's the _[reproductive rate](ro)_ of the debt.
+* **Contagion** is _very_ interesting. It's how quickly the debt spreads - in 2021 and the midst of a pandemic, one could say it's the _[reproductive rate][ro]_ of the debt.
 
 ### Contagion
 > If you only take away one lesson from this article, I hope you remember the “contagion” metric discussed below.
