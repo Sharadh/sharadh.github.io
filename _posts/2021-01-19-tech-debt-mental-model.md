@@ -74,7 +74,7 @@ Let's get back to our mental model about the rate of interest of tech debt. In t
 
 Contagion is exactly like this. The unpaid tech debt replicates and infects other parts of your system, and the impact and cost of the debt keeps increasing exponentially.
 
-_<sup>*</sup>: This obviously isn't financial advice, and neither is this post about credit card debt. This is just meant as an illustrative example._
+_<sup>*</sup>This obviously isn't financial advice, and neither is this post about credit card debt. This is just meant as an illustrative example._
 
 ## Summary
 I hope this post helped give you (and your team) a common starting point to reason about your tech debt, and have more nuanced conversations. To help kickstart, here's a tl;dr that captures 80% of all the words above:
