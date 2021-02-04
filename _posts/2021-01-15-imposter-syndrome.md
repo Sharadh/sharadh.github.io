@@ -4,7 +4,7 @@ title:  "Tech and Imposter Syndrome"
 date:   2021-01-15 21:41:40 -0800
 categories: culture diversity performance
 ---
-I've been thinking a lot about [Imposter Syndrome](imposter-syndrome) lately. As I work with many engineers and we discuss techniques to be more effective, I recognize that some of the simplest things that can help everyone just don't get done. Reflecting on _why_ they don't get done brings me time and again to Imposter Syndrome. I believe that taking simple steps to counter this everyday is one of the best ways to affect positive changes in our industry.
+I've been thinking a lot about [Imposter Syndrome][imposter-syndrome] lately. As I work with many engineers and we discuss techniques to be more effective, I recognize that some of the simplest things that can help everyone just don't get done. Reflecting on _why_ they don't get done brings me time and again to Imposter Syndrome. I believe that taking simple steps to counter this everyday is one of the best ways to affect positive changes in our industry.
 
 ## What is Imposter Syndrome?
 Imposter syndrome essentially means that a person thinks that they tricked their way into their current job, that they're a fraud who'll be eventually found out, and that they don't belong.
@@ -21,7 +21,7 @@ To me, there seems an obvious correlation between experiencing imposter syndrome
 ### Diversity and Inclusion
 As I alluded to earlier, our URM colleagues feel imposter syndrome and its effects more keenly. This means that their performance is likely _more_ affected than others'.
 
-If we believe D&I is important - if not for any moral arguments, for just [the practical benefits](why-di) - then recognizing imposter syndrome and making structural and cultural changes to combat it is essential.
+If we believe D&I is important - if not for any moral arguments, for just [the practical benefits][why-di] - then recognizing imposter syndrome and making structural and cultural changes to combat it is essential.
 
 ## What makes it worse?
 Here are a few parts of tech that I think help aggravate imposter syndrome:
@@ -33,9 +33,9 @@ Here are a few parts of tech that I think help aggravate imposter syndrome:
 ## How can we help?
 There are specific techniques we can use to counter each of the factors above:
 
-* **Celebrate Achievement**: In [Thinking in Bets](bets), poker champion Annie Duke mentions that one key thing companies can do is to "value accuracy, not knowledge". Saying it slightly differently, an organization that values the _doing_ of things (like "delivering a well designed feature") over the _knowing_ of things (like "how to write efficient python") will make it easier for individuals to ask questions in order to get things done. As more people say _"I don't know"_, the identity of the group becomes to ask good questions instead of knowing things; this new state is a lot more democratic and achievable.
+* **Celebrate Achievement**: In [Thinking in Bets][bets], poker champion Annie Duke mentions that one key thing companies can do is to "value accuracy, not knowledge". Saying it slightly differently, an organization that values the _doing_ of things (like "delivering a well designed feature") over the _knowing_ of things (like "how to write efficient python") will make it easier for individuals to ask questions in order to get things done. As more people say _"I don't know"_, the identity of the group becomes to ask good questions instead of knowing things; this new state is a lot more democratic and achievable.
   * A specific sub-technique is to model how everyone is always learning by sharing your work in progress. Just watching an established, respected colleague share clearly incomplete work with an appeal for help is powerful. Seeing the unvarnished `git log` of a star engineer is reassurance that even the best make missteps, and things are not as linear as they seem.
-  * A really powerful technique as a mentor or senior engineer is to say _"I don't know, let's find out together"_, or to say _"Here's what I learned from \<a specific source>"_. This tip courtesy [Morgan Weaver](mweaver-linkedin)'s great talk at vGHC 2020
+  * A really powerful technique as a mentor or senior engineer is to say _"I don't know, let's find out together"_, or to say _"Here's what I learned from \<a specific source>"_. This tip courtesy [Morgan Weaver][mweaver-linkedin]'s great talk at vGHC 2020
 * **Inclusive Communication**: Whatever efficiency gains are made from blunt communication are lost many times over when we consider the diverse voices that decline to join the conversation. There are many techniques to pivot to more inclusive communication - ask questions instead of making statements; provide reasoning for opinions instead of stating them as fact; etc. However, the more meaningful change is in mindset. Leading from authority is simpler and more efficient, but also fragile since a single person's opinions flows through many people. Leading with curiousity is more complex and roundabout, but also robust since many people's opinions flow into the organization. _Invite_ discussion with markers like _"This is what I've done before - I'm curious why you've done it this way"_ or the ridiculously copy-pastable _"What do you think?"_ or _"What am I missing?"_.
 * **Extend Help Proactively**: You know the people new to your org, your team, or your domain. Regardless of how self-assured they may _seem_, consider taking a small step of asking them how they're doing and if you can help with anything. It doesn't need to be anything fancy - just a hallway chat or a DM saying hi, you noticed them, and you're open to help. If you have reason to believe they definitely do need help, repeat the offer.
 
@@ -44,7 +44,7 @@ Hopefully, these patterns and anti-patterns help you identify small ways to make
 
 Finally, a confession: I've focused on the _practical_ aspects and the effect of combating imposter syndrome on the work output. For me though, it is far more rewarding to see the change in texture and tone of a team's conversation when people feel secure. Work just becomes more fun, and my colleagues help me learn and develop so much with minimal effort. It's well worth giving these techniques a shot.
 
-If you're curious to hear more, or disagree with something, or just want to share your experiences, get in touch! If an organization that tries to work this way sounds appealing, check out careers at [NerdWallet Engineering](nw). 
+If you're curious to hear more, or disagree with something, or just want to share your experiences, get in touch! If an organization that tries to work this way sounds appealing, check out careers at [NerdWallet Engineering][nw]. 
 
 [imposter-syndrome]: https://en.wikipedia.org/wiki/Impostor_syndrome
 [why-di]: https://www.greatplacetowork.com/resources/blog/why-is-diversity-inclusion-in-the-workplace-important
