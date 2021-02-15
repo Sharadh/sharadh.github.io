@@ -25,3 +25,7 @@ One pet project of mine is to round up the 10 most impactful mental models that 
 9. Prototypes vs. Competition
 10. People are Probabilistic / Ideas & gossip protocols
 11. (Bonus) Bodymind awareness is like monitoring for your mental models
+
+Candidates:
+
+1. Feedback Asymmetry / Feedback Rich / Rapid Growth
