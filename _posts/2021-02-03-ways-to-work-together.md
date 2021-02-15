@@ -16,26 +16,30 @@ There are two broad ways in which you can build people leverage - you can build 
 ## Direct Leverage
 When working with people directly, my go-to resource is a mental model I learned from [High Output Management][high-output]. I’ve adapted it slightly, and call it _Pair/Direct/Delegate/Mentor_ (aside: my teammates will attest to my imaginative naming.)
 
-**Pair** with a colleague to help them learn skills or best practices by osmosis. This is extremely useful when there’s a lot of stuff to communicate, and the colleague is new to an area we are quite familiar with. Instead of them doing the work and then providing bucket loads of feedback, we can do the work together. Active pairing is when we’re doing the work and the colleague is observing and commenting; shadowing or passive pairing is when these roles are flipped.
+**Pair** with a colleague to help them learn skills or best practices by osmosis. This is extremely useful when there’s a lot of stuff to communicate, and the colleague is new to an area we are quite familiar with. Instead of them doing the work and then providing bucket loads of feedback, we can do the work together<sup>*</sup>. Active pairing is when we’re doing the work and the colleague is observing and commenting; shadowing or passive pairing is when these roles are flipped.
 
 > "Since you've not worked on that repo before, let's pair on that first ticket. It builds multiple images, so there are some uniquely tricky bits floating around."
+> 
 > "Could you let me ride along while you work on this task? I'd like to learn how you use snapshot versions of our libraries to test this out."
 
-_Note: This notion of pairing is related to but different from [Pair Programming][pairprog]. This could be considered a superset: while we're pairing up on the task, there is primarily one way that we expect learning to transfer._
+<sup>_*This notion of pairing is related to but different from [Pair Programming][pairprog]. This "Pair" could be considered a superset: while we're pairing up on the task, there is primarily one way that we expect learning to transfer._</sup>
 
 **Direct** a colleague when they have the skills required to do a complex task, but may not have experience in navigating the complexity and understanding the pieces that go into it. This complexity may be in the task itself, or in the lifecycle of the task like requirement gathering, stakeholder management, release engineering, etc.
 
 > "I've added a lot of detail to that ticket. Apart from the acceptance criteria we discussed, it includes link to code that needs to be altered and some things to watch out for."
+> 
 > "I've not released breaking changes to libraries too often. Do you mind adding exact steps detailing how you would release this new data model?"
 
 **Delegate** to a colleague when they have the skills required to break down and complete a complex task, given only the requirements and constraints. Typically, this is 90% of the actual work that follows the initial 10% where we would work with stakeholders and the project itself to identify the boundaries of the solution, and a handful of considerations. Depending on the colleague, the boundaries and considerations can be firm, or just suggestions on what to consider.
 
 > "I've worked with Alan to get the list of requirements that we discussed, especially around expected turnaround times for the uploads. Do you think you have enough to break this down and implement it?"
+> 
 > "I'd like to take on this story, but I would need some help understanding the first couple of use-cases better. If we can quickly sync on that, I can then drive this forward."
 
 **Mentor** a colleague when they are able to see a task through the entire lifecycle, and may need some guidance at key points on what to focus on, or how to approach the problem. Here, the colleague reaches out for help when they need it. We make ourselves available, and at most observe the task non-judgmentally to know what questions to ask or provide perspective when they do reach out. In rare cases, we might pull them into a 1:1 to provide guidance.
 
 > "How do you think that meeting with the vendor went?"
+> 
 > "Could we chat sometime tomorrow to debrief this meeting? I'm not sure I understand what we spoke about, or why the meeting took that direction."
 
 ## Degree of Leverage
