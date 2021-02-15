@@ -26,13 +26,18 @@ _Note: This notion of pairing is related to but different from [Pair Programming
 
 **Mentor** a colleague when they are able to see a task through the entire lifecycle, and may need some guidance at key points on what to focus on, or how to approach the problem. Here, the colleague reaches out for help when they need it. We make ourselves available, and at most observe the task non-judgmentally to know what questions to ask or provide perspective when they do reach out. In rare cases, we might pull them into a 1:1 to provide guidance.
 
+## Degree of Leverage
+The techniques clearly move from the most time investment (Pair) to the least (Mentor), so it's tempting to assume that we ought to jump to latter whenever possible. However, that would be a false economy: unless the technique is matched to our colleague's needs, the time invested isn't useful.
+
+In other words, jumping to _mentor_ people all the time because that helps us scale better isn't effective. We'll need to be aware of all these possible techniques and deploy the right tool for the job for maximum impact. So, how do we know which of these techniques to use?
+
 ## Task Relevant Maturity: the missing piece
-Knowing these techniques is only one part of it though - how do we know which of these techniques to use? Despite the usual connotations of _Direct_ and _Delegate_, it isn’t organizational hierarchy that dictates this at all. Instead, it is a concept called Task Relevant Maturity [1][trm-1] [2][trm-2]. 
+Despite the usual connotations of _Direct_ and _Delegate_, it isn’t organizational hierarchy that dictates which technique to use with a colleague. Instead, it is a concept called Task Relevant Maturity [1][trm-1] [2][trm-2]; this encourages us to use a colleague's _prior experience_ working on similar tasks as a heuristic for how self-driven they can be on a new one.
 
-**tl;dr:** we need to be curious enough about our colleague to understand their ability as it pertains to a specific task; we don't rely on their title, seniority, or general excellence. This also necessarily means that we know enough about the task to understand what skills it requires and where the pitfalls lie, and how it maps to our colleague.
-
+**tl;dr:** we need to be curious enough about our colleague to understand their ability as it pertains to a specific task: we don't rely on their title, seniority, or general excellence. This also necessarily means that we know enough about the task to understand what skills it requires and where the pitfalls lie, and how it maps to our colleague.
 
 ## Summary
+As we grow into senior technical leaders, learning how high/low touch to work with people is key to building leverage. By matching our colleagues' capabilities and experience to the task at hand, we can choose the level of support we provide; this gives us better returns on our time investment, and gives them the space to learn and grow.
 
 <!-- References -->
 [staff-eng]: https://staffeng.com/stories/
