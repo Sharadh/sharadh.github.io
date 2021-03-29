@@ -21,6 +21,7 @@ One pet project of mine is to round up the ten most impactful mental models that
 **Models**
 * Map is Not the Territory
 * Ways of working together
+* Simple/Complicated/Complex/Chaos
 * Serging - things come apart at the seams
 * Technical debt is like debt on time
 * Styles of leadership and tradeoffs
