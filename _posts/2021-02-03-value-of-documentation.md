@@ -66,4 +66,4 @@ This post was about the value of documentation: how can I have a productive conv
 4. If all else fails, agreeing to ask for more people's opinions will help identify if either of you have a significantly extreme view of the issue.
 
 <!-- References -->
-[confirmation_bias]: https://en.wikipedia.org/wiki/Confirmation_bias
+[confirmation bias]: https://en.wikipedia.org/wiki/Confirmation_bias
