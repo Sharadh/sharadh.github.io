@@ -36,3 +36,6 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"
 
+# jemoji provides support for emoji shortcodes :100:
+gem "jemoji"
+
