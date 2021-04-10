@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Mental Models for Software Engineering
 permalink: /mental-models/
+# only render this page when using `jekyll serve --unpublished`
+published: false
 ---
 _:warning: This page is still a work-in-progress._
 
