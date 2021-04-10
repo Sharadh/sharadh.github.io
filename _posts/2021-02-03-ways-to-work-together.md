@@ -2,7 +2,7 @@
 layout: post
 title:  "Four Ways To Work Together"
 date:   2021-02-03 21:30:00 -0800
-categories: culture mental-models
+tags: culture mental-models
 ---
 As I've grown more senior, I've become more aware of the _leverage_ of things that I do. There's one flavor of this that I love: people leverage.
 
