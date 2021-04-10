@@ -2,7 +2,7 @@
 layout: post
 title:  "Tech and Imposter Syndrome"
 date:   2021-01-15 21:41:40 -0800
-categories: culture diversity performance
+tags: culture diversity performance
 ---
 I've been thinking a lot about [Imposter Syndrome][imposter-syndrome] lately. As I work with many engineers and we discuss techniques to be more effective, I recognize that some of the simplest things that can help everyone just don't get done. Reflecting on _why_ they don't get done brings me time and again to Imposter Syndrome. I believe that taking simple steps to counter this everyday is one of the best ways to affect positive changes in our industry.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Two Mental Models for Technical Debt"
 date:   2021-01-15 21:41:40 -0800
-categories: technical tech-debt mental-models
+tags: technical tech-debt mental-models
 ---
 In a conversation with my new team, one issue that came up was avoiding technical debt. We were all excited (and nervous!) that we were working on a greenfield project, and the team felt that one main benefit was _not_ taking on a codebase saddled with tech-debt. As I reflected on this conversation, I realized that I'd learned and used a couple of really useful mental models about tech debt. In this post, I'll write down the mental models in my head so others can see, evaluate, and help me make them better.
 
