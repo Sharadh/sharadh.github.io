@@ -29,7 +29,7 @@ What does the rate of interest on the debt mean, and why does it matter?
 The rate of interest is the cost to _maintain_ that debt, or to _workaround_ it. For example, it could mean we have to laboriously copy-paste a change in 17 different places across 3 projects. Or it could mean we have to manually press 5 buttons in a specific order each time we want the product inventory to refresh on the live website.
 
 ### Tech Bankruptcy
-Tech bankruptcy happens when a team's technical debt grows to such an extent that they can't continue to function. The debt has balooned beyond management, and the team is unable to keep up the consistent payments to service it. Left unchecked, the team _will_ fail, projects _will_ crumble, and everyone _will_ be fairly miserable.
+Tech bankruptcy happens when a team's technical debt grows to such an extent that they can't continue to function. The debt has ballooned beyond management, and the team is unable to keep up the consistent payments to service it. Left unchecked, the team _will_ fail, projects _will_ crumble, and everyone _will_ be fairly miserable.
 
 The [Google Site Reliability Engineering (SRE) Book][sre] has a neat way of semi-objectively judging a team's tech-debt budget using SLOs. In this scenario, when a team runs out of budget, all feature work stops and they have to service the debt _or_ lose SRE support.
 
@@ -46,7 +46,7 @@ So that's the first mental model: tech debt is like any other debt, a tool for g
 ## Calculating the Rate of Interest
 Let's assume there's some way to determine the benefits we get from taking on tech debt. (We'll just hand-wave and let our hypothetical all-action Product Manager, Alan, handle it. Thanks Alan!) The second mental model is around determining this rate of interest.
 
-My favorite resource for this is a blogpost from Riot games about the _[Taxonomy of Technical Debt][riot]_. Under this model, there are a few different axes to consider any debt: Impact, Cost, and Contagion
+My favorite resource for this is a post from Riot games about the _[Taxonomy of Technical Debt][riot]_. Under this model, there are a few different axes to consider any debt: Impact, Cost, and Contagion
 
 * **Impact** is what we've seen already - the cost of maintaining or working around the debt.
 * **Cost** is actually _Cost to fix_: the cost of biting the bullet, doing the more elegant thing, and ripping all the hacks out.
@@ -77,7 +77,7 @@ Contagion is exactly like this. The unpaid tech debt replicates and infects othe
 _<sup>*</sup>This obviously isn't financial advice, and neither is this post about credit card debt. This is just meant as an illustrative example._
 
 ## Summary
-I hope this post helped give you (and your team) a common starting point to reason about your tech debt, and have more nuanced conversations. To help kickstart, here's a tl;dr that captures 80% of all the words above:
+I hope this post helped give you (and your team) a common starting point to reason about your tech debt, and have more nuanced conversations. To help kick-start, here's a tl;dr that captures 80% of all the words above:
 
 1. Tech debt is like any other debt - taking on a responsible amount will infuse your project with funds for growth.
 2. Like other debt, learn to reason about the rate of interest and what you _can_ afford to pay back.

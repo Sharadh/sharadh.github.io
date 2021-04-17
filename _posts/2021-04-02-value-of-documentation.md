@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Value of Documentation"
-date:   2021-04-02 22:00:00 -0800
+date:   2021-04-02 22:00:00 -0700
 tags: culture documentation collaboration
 ---
 A group of us were talking about the value of technical writing, and there was an excellent question: _What happens if my colleagues just don't believe writing documentation is worth it?_.
@@ -39,7 +39,7 @@ Of the two parts of the equation, I believe the more effective way is to focus o
 
 Most people will point to an example, and then immediately point out why that isn't something we can emulate. This is a start, and engaging with them on _why_ we can't emulate it is already halfway to where we want to go. It's no longer a question of "is it useful?", but a question of "how can it be done?"
 
-On the other hand, if they say they've _never_ found useful documentation then they are either an extreme case of a certain style of learning, or just plain unaware. With their permission, ask others in your pod, team, guild, or org. I'm fairly certain that seeing widespread appreciation of the bnefits will help them understand that _many others_ find it useful even if they don't. At this point, most reasonable people will cede.
+On the other hand, if they say they've _never_ found useful documentation then they are either an extreme case of a certain style of learning, or just plain unaware. With their permission, ask others in your pod, team, guild, or org. I'm fairly certain that seeing widespread appreciation of the benefits will help them understand that _many others_ find it useful even if they don't. At this point, most reasonable people will cede.
 
 ### Myth: "I'd rather just read the code"
 One notable objection to writing documentation is that engineers say the documentation often goes out of date, the code is the only source of truth, and therefore we should just write good code and point everyone to it.
@@ -51,9 +51,9 @@ However, a vast majority of documentation is not function docstrings. It's stuff
 ## Caution: Confirmation Bias
 I'll throw in a note of caution before we end: beware [confirmation bias]. If we're super-enthusiastic believers in writing documentation, it's totally normal that we can take it too far. Put bluntly: sometimes writing docs **is not** the right thing to do, but we might do it because we think it's generally a good thing.
 
-I like to check myself when I get pushback from a colleague and try to honestly answer this: am I intentionally doing it intentionally because it's useful, or automatically because it scratches an itch?
+I like to check myself when I get push-back from a colleague, and try to honestly answer: am I doing it intentionally because it's useful, or automatically because it scratches an itch?
 
-The latter is totally ok, as long as we don't ask someone else to follow suit.
+The latter is totally okay, as long as we don't ask someone else to follow suit.
 
 ## Mental Note: Types of Leadership
 My reasoned guess is that this specific situation my colleague was in was difficult because the technical leader in question was leading by authority, which left little room for perspectives different from theirs. It's the latest reminder that I need to consciously practice different styles of leadership. If I'm truly committed to making diversity work in tech, I need to cultivate a style that can allow different opinions - even ones that I don't personally resonate with or have seen to work!
