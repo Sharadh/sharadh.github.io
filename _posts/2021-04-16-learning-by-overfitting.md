@@ -16,7 +16,7 @@ When my wife and I were talking about it, it suddenly hit me: I was a complete a
 ## Learning by Overfitting
 I call this "learning by overfitting": like data scientists sometimes stretch and strain their model to fit every data point, I stretch and strain my mental model to fit every observed event. In general, I realized I go through three phases when I learn a new thing:
 
-1. **Try it everwhere** and see if it works. See all the things in terms of the new mental model.
+1. **Try it everywhere** and see if it works. See all the things in terms of the new mental model.
 2. **See it fail** and notice where the limits lie.
 3. **Tune the model** to pare back and account for the failures.
 
@@ -26,11 +26,11 @@ Let's take an example: I've just learned [Maslow's Heirarchy][maslow].
 
 1. I see every incident of a colleague not collaborating well as _"some psychological needs haven't been met"_.
 2. I observe that many colleagues feel very secure, and still seem to not collaborate well and are fairly curt.
-3. I refine my understanding of Maslow's Heirarchy - it explains each person's actions in accordance with their own self-actualization, not mine.
+3. I refine my understanding of Maslow's Hierarchy - it explains each person's actions in accordance with their own self-actualization, not mine.
 
 Let's take another one: I've learned about microservices.
 
-1. Everytime anyone has a problem of maintenance and things getting too complex, I think _"Oh, the service is too big. We should split it up."_
+1. Every time anyone has a problem of maintenance and things getting too complex, I think _"Oh, the service is too big. We should split it up."_
 2. I try it out and realize that splitting it up would cause most operations to need coordination across two services, which makes things more complex.
 3. I realize that microservices make sense as long as they have distinct data concerns, and that some services just deal with more complex data.
 
