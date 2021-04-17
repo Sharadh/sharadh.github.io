@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Value of Documentation"
-date:   2021-04-02 22:00:00 -0800
+date:   2021-04-02 22:00:00 -0700
 tags: culture documentation collaboration
 ---
 A group of us were talking about the value of technical writing, and there was an excellent question: _What happens if my colleagues just don't believe writing documentation is worth it?_.
