@@ -26,12 +26,14 @@ This is exactly why taking on _appropriate_ technical debt is considered a respo
 ### Rate of Interest
 What does the rate of interest on the debt mean, and why does it matter?
 
-The rate of interest is the cost to _maintain_ that debt, or to _workaround_ it. For example, it could mean we have to laboriously copy-paste a change in 17 different places across 3 projects. Or it could mean we have to manually press 5 buttons in a specific order each time we want the product inventory to refresh on the live website.
+The rate of interest is the cost to _maintain_ that debt, or to _work around_ it. For example, it could mean we have to laboriously copy-paste a change in 17 different places across 3 projects. Or it could mean we have to manually press 5 buttons in a specific order each time we want the product inventory to refresh on the live website.
 
 ### Tech Bankruptcy
 Tech bankruptcy happens when a team's technical debt grows to such an extent that they can't continue to function. The debt has ballooned beyond management, and the team is unable to keep up the consistent payments to service it. Left unchecked, the team _will_ fail, projects _will_ crumble, and everyone _will_ be fairly miserable.
 
 The [Google Site Reliability Engineering (SRE) Book][sre] has a neat way of semi-objectively judging a team's tech-debt budget using SLOs. In this scenario, when a team runs out of budget, all feature work stops and they have to service the debt _or_ lose SRE support.
+
+Sometimes, a team will _choose_ to file for tech bankruptcy: this typically happens at a project level, due to a shift in strategy, lack of funds to go around, or just mismanagement. The team estimates that the effort to pay back tech debt is not worth it, and instead just build a new thing and decommission the old one. A project entering maintenance and a Limited Liability Company (LLC) entering administration are roughly comparable.
 
 ### Aside: Your Currency is Time
 _Feel free to skip this part, it's just me nerding out on exact abstractions._
@@ -60,7 +62,7 @@ My favorite resource for this is a post from Riot games about the _[Taxonomy of 
 Of the three, contagion is key here since:
 
 * it has the most potential for catastrophic results, and
-* it is the most likely to be overlooked
+* it is the most likely to be overlooked when _initially_ taking on debt
 
 To avoid reinventing the wheel:
 > If this tech debt is allowed to continue to exist, how much will it spread? That spreading can result from other systems interfacing with the afflicted system, from copy-pasting data built on top of the system, or from influencing the way other engineers will choose to implement new features.
@@ -68,6 +70,8 @@ To avoid reinventing the wheel:
 > \- A Taxonomy of Tech Debt, Riot Games
 
 The last part is particularly important: _"influencing the way other engineers will choose to implement new features"_. Watch out for tech debt in _interfaces_: APIs, shared libraries, etc. Watch out too for _boilerplates_ or _guides_: code that is commonly copied by users.
+
+When you refine your backlog and prioritize tech-debt items, you should pay special heed to the contagion. Even if the impact is currently low, contagious items are most likely to severely impair your execution.
 
 ### Contagion and Rate of Interest
 Let's get back to our mental model about the rate of interest of tech debt. In this scenario, contagion is like _compounding_ interest on unpaid debt. Take the typical - and unfortunate - example of credit card debt. Let's take an example<sup>*</sup>: your standard APR is, say, 25%. You miss a payment of $100 one month, and now owe $125. You manage to pay back $50 the next month, so you have $75 outstanding, but now your balance is $94. On and on you go, and finally pay off all that debt in a year's time. When you turn around and do the analysis, the effective interest you paid on that last dollar was 1355%: in other words, over 12 months you owed $13.50 back for that $1 of debt you took on.
