@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'Say "I Don't Know"'
+title:  Say "I Don't Know"
 date:   2021-05-15 17:00:00 -0700
 tags: leadership culture
 ---
@@ -35,7 +35,7 @@ Fun fact: my grandfather _despised_ the phrase _"I don't know"_. He loved his gr
 You see, his perspective was this: it's all well to admit you don't know, but what are you going to do about it? Knowing that I don't know is half the battle - the rest is to use this information to move forward. In that spirit, here are my favorite follow ons.
 
 * **...tell me more:** I use this most often. It is a powerful way of modeling servant leadership: _"You know more than I do, and I request you for more information. My job is to use that information to help you."_
-* **...I'll find out:** I use this when I'm asked a question I honestly don't know the answer to. I say I'll get back to them by a certain time - and make sure I do. It was really difficult to do this in rooms with more senior people, but over time I've realized they appreciate the candor.
+* **...I'll find out:** I use this when I'm asked a question I honestly don't know the answer to. I say I'll get back to them by a certain time - and make sure I do. It was really difficult to do this in rooms with more senior people, but over time I've realized they appreciate the candor. (This is also what my grandfather expected me to say every time!)
 * **...let's find out:** This is probably my favorite. I use this a lot when pairing with folks on their work. Many times we come up with an idea, but don't know how to evaluate or implement it. By collaborating to find out, I can show (and learn) how best to find the answer.
 * **...does it matter?:** This is a tricky one, and I use it sparingly since it could go over as dismissive. When I notice a conversation might be devolving into "Engineer-speak" (where we're debating details that are far removed from the issue at hand) I shock the conversation by somewhat suddenly indicating that I don't know and don't really care. Sometimes it helps move the conversation along - other times, my colleague passionately explains _why_ it matters, and I get a lot of information about where they're coming from. 
 
