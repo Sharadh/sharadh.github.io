@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Growing as a Mentor
-date:   2021-05-23 14:27:00 -0700
+date:   2021-06-02 16:20:00 -0700
 tags: leadership mentoring
 ---
 Over the last year, I've had the opportunity to mentor _a lot_ of engineers. A couple of times in these interactions, I've had this pretty weird feeling of watching myself in the third person and thinking, _"Who's this guy? Seems to know what he's doing."_ This is odd because when I started mentoring, I definitely didn't feel that way. Somewhere along the line I've grown as a mentor (and hopefully, will continue to.) In this post, I'll quickly reflect on that growth thus far.
