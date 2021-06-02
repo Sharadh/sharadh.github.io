@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Microalignments
-date:   2021-06-02 17:00:00 -0700
+date:   2021-06-02 16:50:00 -0700
 tags: technical collaboration
 published: false
 ---
