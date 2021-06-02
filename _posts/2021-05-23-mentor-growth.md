@@ -12,7 +12,7 @@ Over the last year, I've had the opportunity to mentor _a lot_ of engineers. A c
 3. Now, I try and help them figure out where they want to go and how to get there.
 
 ## Stage 1
-_"What got me here will get you here too, and here's **awesome!**_
+_"What got me here will get you here too, and here is **awesome!**_
 
 The first stage, and what got me into mentoring, is when I figured I'm pretty good at doing something and could speed up someone else's learning. I've also really liked "teaching" or "explaining" things to people, so I put these two together and essentially coached my mentees with techniques and the tricks of the trade - set up your IDE this way, do these sort of projects, etc.
 
@@ -21,7 +21,7 @@ This worked really well, but only up to a point. And that point was: "Here's a p
 I've always been aware that my style of learning was different from other people - I tend to be more "old fashioned": bookish and structured, text based, and constructing a mental model _before_ trying experiments to validate it. When I started mentoring more folks who had a distinctly different style, I realized that I had to change how I approached the relationship.
 
 ## Stage 2
-_"Here's **awesome!** - let's see how to get you here._
+_"Here is **awesome!** - let's see how to get you here._
 
 So in the second stage, I started to put myself into my mentees' shoes. I learned by reading, but perhaps they learn best by doing. How can I pair with them, or give them chance to just try things before we dived into techniques? Perhaps they like learning through multimedia - could I find a Youtube video or a podcast that might help? How could I take my learning from a Platform team, but then apply it to _their_ situation on a Frontend team?
 
@@ -36,14 +36,6 @@ Techniques are useful too - _especially_ when tied to an active project that the
 
 ### Aside: Limits to Growth
 Having recently read [The Fifth Discipline][5th-discipline] I've come to think of this as a _Limits to Growth_ ([1][limits-1],[2][limits-2]) scenario: I was previously spending a lot of _effort_ on techniques to improve performance, but a far more useful approach is to tackle the _constraint_ of how my mentee views their own growth. Without that vision and the frameworks to concretely articulate the vision, the default setting was to just do more of the same, which resulted in a growth ceiling.
-
-
-### Notes
-* What worked for me will work for them
-* What worked for me may not work; but they want the same thing
-* This is a beautiful snowflake
-    * The only real way is to help them look inward for the solution
-    * Techniques really help too, especially when can be attached to an active project (i.e they have agency)
 
 <!-- References -->
 [archetypes]: https://staffeng.com/guides/staff-archetypes
