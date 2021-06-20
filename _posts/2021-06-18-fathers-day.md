@@ -61,16 +61,6 @@ _Caveat: There's a host of things that I've learned from my mom as well, and she
 ## Gratitude
 Reflecting on what I've learned from my parents, and extrapolating what they learned from theirs and so on really puts into perspective the challenges that folks from non-mainstream backgrounds face in the industry. Perhaps they're from URMs and don't have a model for what success looks like in tech, or perhaps they're first-generation college grads and don't have a model for what a successful career looks like. Either way, it makes me feel incredibly grateful for these things I've been blessed with, and motivated to share what I can with anyone else.
 
-### Notes
-* Things I learned from my dad
-  * ~~Smile, laugh, and have a good time - even at work~~
-  * ~~People don't remember what you say, but how you made them feel~~
-  * ~~The cleverest person who can't connect with people is doomed~~
-  * ~~Focus on the outcome for you - let the other "soft stuff" slide off~~
-  * ~~Don't take yourself too seriously~~
-  * ~~Trust yourself to wing it~~
-  * ~~Find something more than yourself to work for (my mom)~~
-
 <!-- References -->
 [who-luck]: https://fs.blog/knowledge-project/jim-collins/
 [happiness-advantage]: https://www.amazon.com/Happiness-Advantage-Principles-Psychology-Performance/dp/0307591549
