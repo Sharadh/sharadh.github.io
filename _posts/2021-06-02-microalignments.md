@@ -101,20 +101,23 @@ I think there's a simpler way: instead of relying on stronger process, get cross
 That (finally) brings us to microalignment.
 
 ## How to Microalign
+There are two key principles to enable microalignment: _overcommunicate_, and _async_
 
+Overcommunication ensures that we keep people in the loop even when there's nothing contentious. Just like regular Scrum, there's steady stream of seemingly minor updates: _"We thought we could use the shared library, but not quite, so we're building our own."_, _"Had some trouble testing, so it'll be a day delayed."_ The idea is to create enough ambient feedback loops so that we increase the chances of catching something we didn't think was important, or that when something does come up the cross-functional team has enough muscle memory to raise it to each other in an easy way.
+
+Async communication is a necessary corollary to overcommunication to prevent burnout. Engineers just won't communicate if the cost of doing it is high - they'd rather wait for something to "become an issue" that "deserves that level of communication". This is why _any_ async medium will do: email, wiki pages, Slack, etc. On top of that, there are a few templates to communicate through:
+
+* Re: ticket JIRA-123, just wanted to let you know we're on track and a draft PR is up. You can see it [here][example]
+* Heads up: we just merged [this change][example] that addresses the problems we discussed in our last sync. Please let me know how it works!
+* I just realized when working on JIRA-123 that we haven't agreed on the cadence of data updates. I don't know if this is important, but [here's][example] what I've assumed - let me know if anyone has comments.
+
+In all cases, there's a fairly informal _and short_ update which is easily parsed. Folks who need more info have a way to get it, and the message itself is a good place for any more discussion.
+
+### Does it Work?
+Measuring success for micro-alignment - like with all good process - is difficult. It tends to solve problems before they become large; this means it's not visible in the way of a late-project all-nighter to integrate two systems. The success will be at a macro level: complex cross-team projects will ship more on time, and the people involved will be happier working on them. This means that for technical leaders, part of implementing this change is to draw attention to the minor stuff that _do_ get raised - while focusing on long term actual outcomes.
 
 ## Summary
 In this post, I wrote about my approach to building alignment, which is perhaps the most important part of my job. I like to apply Agile techniques in collaboration, and this leads to recurring "microalignments". This technique helps me scale, and also helps the organization build [connective tissue][updates].
-
-### Notes
-* Building alignment is key part of Sr. engineering roles
-* Like any integration, waterfall is a terrible way to do this and expensive
-    * also, high psychological cost
-* Agile works way better
-    * microalignments
-    * keep people in the loop even when there's nothing contentious
-    * usually, _something_ will come up. It'll be so minor you won't realize - but this is _important_ so look for it and draw focus to it.
-* Your job is to help the org build [connective tissue]()
 
 <!-- References -->
 [staffeng]: https://staffeng.com/
@@ -124,3 +127,4 @@ In this post, I wrote about my approach to building alignment, which is perhaps 
 [agile-manifesto]: https://agilemanifesto.org/
 [scrum-scrums]: https://www.atlassian.com/agile/scrum/scrum-of-scrums
 [agile-principles]: https://agilemanifesto.org/principles.html
+[example]: https://www.example.com
