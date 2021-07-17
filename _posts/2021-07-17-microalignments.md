@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Microalignments
-date:   2021-06-02 16:50:00 -0700
+date:   2021-07-17 16:50:00 -0700
 tags: technical collaboration
 ---
 A key part of [Staff+][staffeng] engineering roles is to build alignment. I call my approach to doing this "microalignment"; enough people have recently said it's a great word for what we do, so I'm going to write about it here.
