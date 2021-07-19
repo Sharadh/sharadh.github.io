@@ -18,11 +18,18 @@ Conventional answers to this include: we're aligning roadmaps, we're pointing in
 
 Said differently: if we agree on our idea - our mental model - of the work, then these other things like the roadmap or various backlogs will follow. There's definitely effort required to pay attention, dot the i's, and cross the t's; that said, things mostly just work.
 
+## Idea Drift
+Any team is a team because of strong internal bonds; these same bonds that let the team work well together mean that information bubbles - and more importantly, **idea bubbles** - start to develop. It's _really difficult_ for folks within the team to realize that they've interpreted a little ambiguity in the plan in a way that's notably different! In the process of interpretation, they've all agreed on one thing, and now that thing is obvious to them.
+
+So in this way, multiple teams working on the same project have their own idea of what the project is, what _their_ scope is, and how to achieve it. They may have had a shared understanding to begin with, and over time there's idea drift that happens.
+
+When I think of alignment, I think of the _integration_ of these smaller idea bubbles into a larger one - a shared understanding of the project.
+
 ## Status Quo
 On a generic team that follows an agile methodology, we tend try and ensure alignment on cross team projects with a standard process:
 
 1. We brainstorm and figure out dependencies; we then work with different teams, get capacity, and table the work each team needs to get done.
-2. We go away and do the work. Every now and then, we get status updates (typically via a technical program manager \[TPM\]) about how the work is going.
+2. We go away and do the work. Every now and then, we get status updates (typically via a technical program manager, or TPM) about how the work is going.
 3. When the Jira tickets align, combinations of teams integrate the work with each other.
 
 This seems completely reasonable at first glance. However, my assertion is that this is essentially a waterfall approach to software development, and that it isn't very effective.
@@ -31,13 +38,6 @@ The crux of it lies in Step (2), when we go away and do the work. That's when di
 
 If you're wondering, _"Wait, what? This isn't a problem for us at all!"_, it's possible your org is not at a size where this is a problem, or you're solving it with one of the alternatives below. [Have a look](#alternatives)! If it's the former, this article will be of little use to you. Also, I envy you a little bit: there's a lot of joy in a smaller and more nimble org. Enjoy it!
 
-## Idea Drift
-Any team is a team because of strong internal bonds; these same bonds that let the team work well together mean that information bubbles - and more importantly, **idea bubbles** - start to develop. It's _really difficult_ for folks within the team to realize that they've interpreted a little ambiguity in the plan in a way that's notably different! In the process of interpretation, they've all agreed on one thing, and now that thing is obvious to them.
-
-So in this way, multiple teams working on the same project have their own idea of what the project is, what _their_ scope is, and how to achieve it. They may have had a shared understanding to begin with, and over time there's idea drift that happens.
-
-When I think of alignment, I think of the _integration_ of these smaller idea bubbles into a larger one - a shared understanding of the project.
-
 ## How to Microalign
 There are two key principles to enable microalignment: _overcommunicate_, and _do it async._
 
@@ -45,7 +45,7 @@ There are two key principles to enable microalignment: _overcommunicate_, and _d
 
 **Doing it async** is a necessary corollary to overcommunication to prevent burnout. Engineers just won't communicate if the cost of doing it is high - they'd rather wait for something to _"become an issue that deserves that level of communication"_. What they're actually saying, of course, is: _"It's painful to schedule a meeting to deal with this small thing. I'll note my assumptions and keep moving on."_. This is why _any_ async medium will do: email, wiki pages, Slack, etc.
 
-There are a few templates to effectively micro-communicate through:
+These two principles lead to micro-communications; here are a few effective examples:
 
 * _"Re: ticket JIRA-123, just wanted to let you know we're on track and a draft PR is up. You can see it [here][example]."_
 * _"Heads up: we just merged [this change][example] that addresses the problems we discussed in our last sync. Please let me know how it works!"_
