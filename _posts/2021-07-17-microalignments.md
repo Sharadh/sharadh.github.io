@@ -38,27 +38,33 @@ The crux of it lies in Step (2), when we go away and do the work. That's when di
 
 If you're wondering, _"Wait, what? This isn't a problem for us at all!"_, it's possible your org is not at a size where this is a problem, or you're solving it with one of the alternatives below. [Have a look](#alternatives)! If it's the former, this article will be of little use to you. Also, I envy you a little bit: there's a lot of joy in a smaller and more nimble org. Enjoy it!
 
-## How to Microalign
-There are two key principles to enable microalignment: _overcommunicate_, and _do it async._
-
-**Overcommunication** ensures that we keep people in the loop even when there's nothing contentious. Just like regular Scrum, there's steady stream of seemingly minor updates: _"We thought we could use the shared library, but not quite, so we're building our own client."_, _"Had some trouble testing, so it'll be a day delayed."_ The idea is to create enough ambient feedback loops so that we increase the chances of catching something we didn't think was important, or that when something does come up the larger team can _easily_ raise and examine it.
-
-**Doing it async** is a necessary corollary to overcommunication to prevent burnout. Engineers just won't communicate if the cost of doing it is high - they'd rather wait for something to _"become an issue that deserves that level of communication"_. What they're actually saying, of course, is: _"It's painful to schedule a meeting to deal with this small thing. I'll note my assumptions and keep moving on."_. This is why _any_ async medium will do: email, wiki pages, Slack, etc.
-
-These two principles lead to micro-communications; here are a few effective examples:
+## Microalignments
+The idea of microalignment is to combat idea drift by aligning these idea bubbles early and often - sometimes as soon as the bubble develops, which is at the end of a team meeting. To do this, we rely on micro-communications:
 
 * _"Re: ticket JIRA-123, just wanted to let you know we're on track and a draft PR is up. You can see it [here][example]."_
 * _"Heads up: we just merged [this change][example] that addresses the problems we discussed in our last sync. Please let me know how it works!"_
 * _"I just realized when working on JIRA-123 that we haven't agreed on the cadence of data updates. I don't know if this is important, but [here's][example] what I've assumed - let me know if anyone has comments."_
 
-In all cases, there's a fairly informal _and short_ update which is easily parsed. Folks who need more info have a way to get it, and the message itself is a good place for any more discussion. If you're a tech lead or senior IC who wants to try this out:
+In all cases, there's a fairly informal _and short_ update which is easily parsed. Folks who need more info have a way to get it, and the message itself is a good place for any more discussion.
+
+If you're a tech lead or senior IC who wants to try this out:
 
 1. Establish an async medium for the project. My favorite is a shared Slack channel.
 2. Establish a stream of updates to that medium, and encourage your team to do the same.
 3. When your team wonders if this is spammy, encourage them to make the updates more succinct and to include links to more context. Guide them away from larger and less frequent updates, and towards smaller and more frequent ones.
 
+### Drivers
+The key driver behind microalignment is to [lower the cost][value-of-docs] of collaboration, and we do that with two techniques: _overcommunication_, and _doing it async._
+
+**Overcommunication** ensures that we keep people in the loop even when there's nothing contentious. Just like regular Scrum, there's steady stream of seemingly minor updates: _"We thought we could use the shared library, but not quite, so we're building our own client."_, _"Had some trouble testing, so it'll be a day delayed."_ The idea is to create enough ambient feedback loops so that we increase the chances of catching something we didn't think was important, or that when something does come up the larger team can _easily_ raise and examine it.
+
+**Doing it async** is a necessary corollary to overcommunication to prevent burnout. Engineers just won't communicate if the cost of doing it is high - they'd rather wait for something to _"become an issue that deserves that level of communication"_. What they're actually saying, of course, is: _"It's painful to schedule a meeting to deal with this small thing. I'll note my assumptions and keep moving on."_. This is why _any_ async medium will do: email, wiki pages, Slack, etc.
+
 ### Does it Work?
-Measuring success for micro-alignment - like with all good process - is difficult. It tends to solve problems before they become large; this means it's not visible in same way a late-project all-nighter to integrate two systems is. The success will be at a macro level: complex cross-team projects will ship more on time, and the people involved will be happier working on them. This means that for technical leaders, part of implementing this change is to draw attention to the minor issues that _do_ get raised - while focusing on long term actual outcomes.
+Measuring success for micro-alignment - like with all good process - is difficult. It tends to solve problems before they become large; this means it's not visible in same way a late-project all-nighter to integrate two systems is. The success will be at a macro level: complex cross-team projects will ship more on time, and the people involved will be happier working on them. For technical leaders trying this out, I recommend:
+
+* Drawing attention to the minor issues that _do_ get raised - and solved - via nimble self-organizing communications.
+* Details that in the end deviated from the plan, but still got done on time.
 
 ## Alternatives
 
@@ -104,7 +110,7 @@ While it's tempting to evolve the Scrum process to be more sophisticated to comb
 
 Instead of relying on stronger process, let's get cross team partners into a (slack) room together, tell them it's their responsibility to be on the same page as they work on things, and leave them to it. When we apply too much structure to software development, we risk subtly absolving developers of the responsibility to collaborate effectively.  I think the more appropriate approach is to give them the responsibility but empower them with techniques that help.
 
-Zooming out, I think this is a good example of one of my guiding principles: _put the pain where it belongs_. Who owns the scrum of scrums? Typically, the TPM does - and on that person falls the responsibility of knowing what every engineer is _actually_ doing, translating across teams, and aligning ideas. When the TPM owns collaboration, the engineers don't have skin in the game and don't feel the pain of a lack of collaboration muscle. They never need to get better at popping idea bubbles, and the organization compensates for this by investing even more resources.
+Zooming out, I think this is a good example of one of my guiding principles when building teams: _put the pain where it belongs_. Who owns the scrum of scrums? Typically, the TPM does - and on that person falls the responsibility of knowing what every engineer is _actually_ doing, translating across teams, and aligning ideas. When the TPM owns collaboration, the engineers don't have skin in the game and don't feel the pain of a lack of collaboration muscle. They never need to get better at popping idea bubbles, and the organization compensates for this by investing even more resources in helping them.
 
 ## Summary
 In this post, I wrote about my approach to building alignment, which is perhaps the most important part of my job. I like to apply Agile techniques in collaboration, and this leads to frequent microalignments. This technique helps me scale, and also helps the organization build [connective tissue][updates].
@@ -113,6 +119,7 @@ In this post, I wrote about my approach to building alignment, which is perhaps 
 [staffeng]: https://staffeng.com/
 [waterfall]: https://en.wikipedia.org/wiki/Waterfall_model
 [updates]: https://lethain.com/weekly-updates/
+[value-of-docs]: {% post_url 2021-04-02-value-of-documentation %}#cost
 [agile-manifesto]: https://agilemanifesto.org/
 [scrum-scrums]: https://www.atlassian.com/agile/scrum/scrum-of-scrums
 [agile-principles]: https://agilemanifesto.org/principles.html
