@@ -36,6 +36,10 @@ Escalation is undesirable for two reasons:
 
 The more insidious part of escalation is that when it becomes the go-to approach, teams forget how to work without it. When _that_ happens, the senior engineers involved - and this is where you and I come in - just don't scale. Engineers usually outnumber the folks in the "management structure", so the management folks become a bottleneck for every decision. Consequently, senior ICs hit a wall and get incredibly frustrated that they just can't create the impact they want.
 
+### Connective Tissue
+This technique helps me scale, and also helps the organization build [connective tissue][updates].
+
 <!-- References -->
 [staffeng]: https://staffeng.com/
 [staffeng-aligned]: https://staffeng.com/guides/staying-aligned-with-authority
+[updates]: https://lethain.com/weekly-updates/

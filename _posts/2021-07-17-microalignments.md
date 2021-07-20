@@ -60,7 +60,7 @@ The key driver behind microalignment is to [lower the cost][value-of-docs] of co
 
 **Doing it async** is a necessary corollary to overcommunication to prevent burnout. Engineers just won't communicate if the cost of doing it is high - they'd rather wait for something to _"become an issue that deserves that level of communication"_. What they're actually saying, of course, is: _"It's painful to schedule a meeting to deal with this small thing. I'll note my assumptions and keep moving on."_. This is why _any_ async medium will do: email, wiki pages, Slack, etc.
 
-### Does it Work?
+### Does it work?
 Measuring success for micro-alignment - like with all good process - is difficult. It tends to solve problems before they become large; this means it's not visible in same way a late-project all-nighter to integrate two systems is. The success will be at a macro level: complex cross-team projects will ship more on time, and the people involved will be happier working on them. For technical leaders trying this out, I recommend:
 
 * Drawing attention to the minor issues that _do_ get raised - and solved - via nimble self-organizing communications.
@@ -76,7 +76,7 @@ In my experience, unless the breakdown involves actually zooming in and mapping 
 
 This makes the development process a bit more waterfall-y: there's a lot more resistance to changes to the implementation plan because of the effort put into it already. It may look like less "extra stuff" for the team to do (that's engineer speak for "speaking to other people"), but the team's execution becomes less nimble.
 
-### Doesn't Scrum Solve this?
+### Doesn't Scrum solve this?
 At this point you may be thinking, _"Man, this guy really doesn't get Agile! If they were doing it right, none of this would happen."_
 
 Yes, and no.
@@ -93,12 +93,12 @@ Scrum commonly interprets this as:
 
 The wrinkle is when organizations grow large enough that there emerge specialized "horizontal" or "platform" teams. Good examples are DevOps (or more generally, Infrastructure), Data Engineering, various Data Platform teams, etc. Before you say, _"There's your problem right there!"_ - there's value in having them be horizontals. This pattern keep evolving because it's useful for a host of things, like shared best practices, a team engineers identify with, a manager that gets them and their career aspirations, etc. Scattering the engineers across customer-facing teams may work for the project but often doesn't for the codebase, or the individuals.
 
-### Doesn't Scrum of Scrums Solve this?
+### Doesn't Scrum of Scrums solve this?
 There is a popular evolution (or interpretation?) of Scrum, called [Scrum of Scrums][scrum-scrums]. It advocates for "virtual teams" that cross team boundaries, and encourages these to follow the same Scrum processes as development teams.
 
 This works for some cases, but tends to break down when many _small_, horizontal teams are involved. These teams tend to have a small part to play across many projects, and the overhead becomes pretty intense. In my experience doing this (and watching others), engineers develop acute frustration at being in various scrum ceremonies one after another for a small contribution, or just to "be informed".
 
-### Mindset Change
+### Mindset change
 While it's tempting to evolve the Scrum process to be more sophisticated to combat this, I think there's a simpler way. Going back to another key part of the Agile manifesto:
 
 * Individuals and interactions over processes and tools
@@ -108,17 +108,16 @@ While it's tempting to evolve the Scrum process to be more sophisticated to comb
 > Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
 > The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
 
-Instead of relying on stronger process, let's get cross team partners into a (slack) room together, tell them it's their responsibility to be on the same page as they work on things, and leave them to it. When we apply too much structure to software development, we risk subtly absolving developers of the responsibility to collaborate effectively.  I think the more appropriate approach is to give them the responsibility but empower them with techniques that help.
+Instead of relying on stronger process, let's get cross team partners into a (slack) room together, tell them it's their responsibility to be on the same page as they work on things, and leave them to it. When we apply too much structure to software development, we risk subtly absolving developers of the responsibility to collaborate effectively.  I think the more appropriate approach is to give them the responsibility _and_ empower them with techniques that help.
 
-Zooming out, I think this is a good example of one of my guiding principles when building teams: _put the pain where it belongs_. Who owns the scrum of scrums? Typically, the TPM does - and on that person falls the responsibility of knowing what every engineer is _actually_ doing, translating across teams, and aligning ideas. When the TPM owns collaboration, the engineers don't have skin in the game and don't feel the pain of a lack of collaboration muscle. They never need to get better at popping idea bubbles, and the organization compensates for this by investing even more resources in helping them.
+Zooming out, I think this is a good example of one of my favorite principles when building teams: _put the pain where it belongs_. Who owns the scrum of scrums? Typically, the TPM does - and on that person falls the responsibility of knowing what every engineer is _actually_ doing, translating across teams, and aligning ideas. When the TPM owns collaboration, the engineers don't have skin in the game and don't feel the pain of a lack of collaboration muscle. They never need to get better at popping idea bubbles, and the organization compensates for this by investing even more resources in helping them.
 
 ## Summary
-In this post, I wrote about my approach to building alignment, which is perhaps the most important part of my job. I like to apply Agile techniques in collaboration, and this leads to frequent microalignments. This technique helps me scale, and also helps the organization build [connective tissue][updates].
+In this post, I wrote about my approach to building alignment, which is perhaps the most important part of my job. I like to apply Agile techniques in collaboration, and this has led me to "microalignments". By setting up a structure and providing guidance for my teams to communicate early and often, I've found success with minimizing the burden and chaos on cross-team projects.
 
 <!-- References -->
 [staffeng]: https://staffeng.com/
 [waterfall]: https://en.wikipedia.org/wiki/Waterfall_model
-[updates]: https://lethain.com/weekly-updates/
 [value-of-docs]: {% post_url 2021-04-02-value-of-documentation %}#cost
 [agile-manifesto]: https://agilemanifesto.org/
 [scrum-scrums]: https://www.atlassian.com/agile/scrum/scrum-of-scrums
