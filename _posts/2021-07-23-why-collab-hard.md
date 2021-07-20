@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  Microalignments
+title:  Why is collaboration so hard?
 date:   2021-07-17 08:50:00 -0700
 tags: technical collaboration
+published: false
 ---
 A key part of [Staff+][staffeng] engineering roles is to build alignment. I call my approach to doing this "microalignment". Many people have recently said it's a great word for what we do, so I'm going to write about it here.
 
